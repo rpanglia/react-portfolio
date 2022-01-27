@@ -1,6 +1,6 @@
 import React from "react";
 
-import myPhoto from "../../assets/ravimg.jpeg";
+import myPhoto from "../../assets/ravimg.jpg";
 
 function About() {
 
