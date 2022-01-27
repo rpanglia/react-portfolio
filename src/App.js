@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
 import Nav from './components/Nav';
+import Home from './components/Home';
 import About from './components/About';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+
 
 function App() {
 
@@ -34,9 +40,7 @@ function App() {
           </header>
           <div>{renderPage(currentPage)}</div>
           
-          <footer>
-            Ravneet Panglia &#169; {year} 
-          </footer>
+          <footer>Ravneet Panglia &#169; {year}</footer>
       </main>
     </div>
   )
