@@ -1,7 +1,12 @@
 import React from "react";
 
 
-function Nav() {
+function Nav(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
+
     return (
         <header className="flex-row px-1">
             <h2>
