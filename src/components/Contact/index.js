@@ -45,7 +45,7 @@ function Contact() {
             <h1 className="titles">Get in Touch</h1>
             <hr></hr>
 
-            <div className="boxes">
+            <div className="box">
                 <h3 className="titles">Contact Info</h3>
                 <ul>
                     <li>
@@ -58,9 +58,9 @@ function Contact() {
             </div>
 
             <div className="box">
-            <h3 className="titles">Leave a Message</h3>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <h3 className="titles">Leave a Message</h3>
+                <form id="contact-form" onSubmit={handleSubmit}>
+                    <div>
                     <label htmlFor="name">Your Name</label>
                     <input
                         type="text"
@@ -68,35 +68,35 @@ function Contact() {
                         placeholder="Raj Singh"
                         defaultValue={name}
                         onBlur={handleChange}
-                    />
-                </div>
-                <div>
-                    <label htmlFor="email">Your Email address</label>
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="rajsingh@gmail.com"
-                        defaultValue={email}
-                        onBlur={handleChange}
-                    />
-                </div>
-                <div>
-                    <label htmlFor="message">Message</label>
-                    <textarea
-                        name="message"
-                        rows="5"
-                        placeholder="Enter your message.."
-                        defaultValue={message}
-                        onBlur={handleChange}
-                    />
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
+                        />
                     </div>
-                )}
-                <button data-testid="button" type="submit">Submit</button>
-            </form>
+                    <div>
+                        <label htmlFor="email">Your Email address</label>
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="rajsingh@gmail.com"
+                            defaultValue={email}
+                            onBlur={handleChange}
+                        />
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message</label>
+                        <textarea
+                            name="message"
+                            rows="5"
+                            placeholder="Enter your message.."
+                            defaultValue={message}
+                            onBlur={handleChange}
+                        />
+                    </div>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                    <button data-testid="button" type="submit">Submit</button>
+                </form>
             </div>
             
         </section>

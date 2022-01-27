@@ -1,5 +1,7 @@
 import React from "react";
 
+import myPhoto from "../../assets/ravimg.jpeg";
+
 function About() {
 
     return (
@@ -9,8 +11,8 @@ function About() {
         <hr></hr>
 
         <div id="container">
-          <div className="img-text-box"> 
-              <img src="../../../ravimg.jpg" alt="Ravneet's Headshot" className="margin-block"/>
+          <div className="img-text-box col"> 
+          <div className="img-box col-lg-4"><img src={myPhoto} alt="Ravneet's Headshot" className="margin-block headshot"/></div>
                 <div className="mb-2 margin-block">
                   <p>
                     I am a Kinesiologist turned Web Developer.

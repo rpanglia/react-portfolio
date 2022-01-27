@@ -15,7 +15,7 @@ function Resume() {
             <a className="get-resume" href="https://drive.google.com/file/d/1eUpLqL8RyNtpKwj1NzExapbS4R_1gzEg/view?usp=sharing" target="_blank"><button>View My Resume</button></a>
         </div>
 
-        <div className="container">
+        <div className="box">
             <div className="card-body" display="inline-block">
                 <h3 className="titles">Front End</h3>
                 <ul>
