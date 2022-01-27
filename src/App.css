@@ -37,7 +37,7 @@ body {
   margin: 30px auto auto;
   padding: 10px 20px;
   max-width: 50%;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.411);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.158);
 }
 
 .hero {
@@ -94,36 +94,6 @@ nav li {
   flex-wrap: wrap;
 }
 
-.flex-row {
-  width: 100%;
-}
-
-.flex-end {
-  justify-content: flex-end;
-}
-
-p {
-  font-size: 1.1rem;
-  margin-top: 0;
-}
-
-textarea {
-  width: 100%;
-  border: 3px solid #cccccc;
-  padding: 5px;
-}
-
-.titles {
-  text-align: center;
-  font-family: 'Verdana', sans-serif;
-}
-
-.headshot {
-  max-width: 100%;
-  margin: 0;
-}
-
-
 footer {
   background: #b7f7d2a1;
   height: 25px;
@@ -145,6 +115,132 @@ footer {
   width: 100%;
 }
 
+.flex-row {
+  width: 100%;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+textarea {
+  width: 100%;
+  border: 3px solid #cccccc;
+  padding: 5px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.margin-block {
+  margin: 0 1rem;
+}
+
+.titles {
+  text-align: center;
+  font-family: 'Verdana', sans-serif;
+}
+
+button {
+  background: var(--tertiary);
+  color: var(--primary);
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.card-body {
+  color: hsla(157, 74%, 60%, 0.137);
+}
+
+.card-title{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+.headshot {
+  max-width: 100%;
+  margin: 0;
+}
+
+.resume-button {
+  margin: 0 auto; 
+  display: table;
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0 5%;
+}
+
+span[role='img'] {
+  cursor: default;
+}
+
+li {
+  list-style: circle;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  width: 100%;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.253);
+}
 
 
 
