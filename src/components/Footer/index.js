@@ -12,7 +12,7 @@ function Footer() {
             <div className="socials">
                 <div>
                     <SocialIcon
-                        href="mailto:ravneet.panglia@gmail.com"
+                        url="mailto:ravneet.panglia@gmail.com"
                         target="_blank"
                     />
                 </div>
@@ -28,7 +28,6 @@ function Footer() {
                         target="_blank"
                     />
                 </div>
-                
             </div>
         </footer>
 

@@ -40,7 +40,7 @@ function App() {
           </header>
           <div>{renderPage(currentPage)}</div>
           
-          <footer>Ravneet Panglia &#169; {year}</footer>
+          <Footer>Ravneet Panglia &#169; {year}</Footer>
       </main>
     </div>
   )
