@@ -1,6 +1,6 @@
 import React from "react";
 
-import { rpResume } from "../../assets/RPResume.pdf";
+// import { rpResume } from "../../assets/RPResume.pdf";
 
 
 function Resume() {
@@ -12,7 +12,7 @@ function Resume() {
         <hr></hr>
 
         <div id="container d-flex justify-content-center">
-            <a className="get-resume" href="https://drive.google.com/file/d/1eUpLqL8RyNtpKwj1NzExapbS4R_1gzEg/view?usp=sharing"><button>View My Resume</button></a>
+            <a className="get-resume" href="https://drive.google.com/file/d/1eUpLqL8RyNtpKwj1NzExapbS4R_1gzEg/view?usp=sharing" target="_blank"><button>View My Resume</button></a>
         </div>
 
         <div className="container">
@@ -42,7 +42,7 @@ function Resume() {
                 </ul>
             </div>
                
-            </div>
+        </div>
 
 
 
