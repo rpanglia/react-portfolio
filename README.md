@@ -1,5 +1,8 @@
-# Getting Started with Create React App
+# Ravneet Panglia's Portfolio
 
+A preview into my journey thus far... 
+
+## How It's Made:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
