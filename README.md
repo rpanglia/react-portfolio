@@ -1,9 +1,20 @@
 # Ravneet Panglia's Portfolio
 
-A preview into my journey thus far... 
+A preview into my journey in web development thus far... https://rpanglia.github.io/react-portfolio/
 
-## How It's Made:
+## Table of Contents
+- [Dev Info](#how-its-made)
+- [License](#license)
+- [Available Scripts](#available-scripts)
+- [Learn More](#learn-more)
+
+## How Its Made:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## License
+
+This project is not licensed.
 
 ## Available Scripts
 

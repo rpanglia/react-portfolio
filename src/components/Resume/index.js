@@ -11,7 +11,7 @@ function Resume() {
 
         <div id="container justify-content-center">
             <div className="img-text-box"> 
-                <a className="get-resume" href={require('../../assets/RPResume.pdf')}><button>View My Resume</button></a>
+                <a className="get-resume" href={require('../../assets/RPResume.pdf')} target="_blank" rel="noreferrer"><button>View My Resume</button></a>
             </div>
 
             
