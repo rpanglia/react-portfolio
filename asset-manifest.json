@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.21903575.css",
+    "main.js": "/react-portfolio/static/js/main.fb2fa45a.js",
+    "static/media/smalljumbo.jpg": "/react-portfolio/static/media/smalljumbo.1b6261ccb3b8d6bb91f3.jpg",
+    "static/media/jumbo2.jpg": "/react-portfolio/static/media/jumbo2.1bfb81dbf99b141e84e3.jpg",
+    "static/media/ravimg.jpg": "/react-portfolio/static/media/ravimg.6c16a9f8255c67a7a4f5.jpg",
+    "static/media/RPResume.pdf": "/react-portfolio/static/media/RPResume.d63749f0af265acdd050.pdf",
+    "static/media/weather_dashboard.jpg": "/react-portfolio/static/media/weather_dashboard.53ed735f2c9326f7e1fd.jpg",
+    "static/media/medisearch.jpg": "/react-portfolio/static/media/medisearch.e9b4070f0a8a90c9256b.jpg",
+    "static/media/workday_schedule.jpg": "/react-portfolio/static/media/workday_schedule.118343ddf859c1e3021e.jpg",
+    "static/media/code_quiz.jpg": "/react-portfolio/static/media/code_quiz.912ff9452ecb17e9c3e0.jpg",
+    "static/media/wellness_hub.jpg": "/react-portfolio/static/media/wellness_hub.7c4ef907d896d90abbbc.jpg",
+    "static/media/budget_trackers.jpg": "/react-portfolio/static/media/budget_trackers.cf2274bea4850a3104cb.jpg",
+    "static/media/password_generator.png": "/react-portfolio/static/media/password_generator.15aec1b368eb6cd76d9e.png",
+    "static/media/note_it.jpg": "/react-portfolio/static/media/note_it.95ecf31520620fe2609d.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.21903575.css.map": "/react-portfolio/static/css/main.21903575.css.map",
+    "main.fb2fa45a.js.map": "/react-portfolio/static/js/main.fb2fa45a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21903575.css",
+    "static/js/main.fb2fa45a.js"
+  ]
+}
