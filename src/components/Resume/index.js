@@ -1,7 +1,5 @@
 import React from "react";
 
-// import { rpResume } from "../../assets/RPResume.pdf";
-
 
 function Resume() {
 
@@ -12,7 +10,7 @@ function Resume() {
         <hr></hr>
 
         <div id="container d-flex justify-content-center">
-            <a className="get-resume" href="https://drive.google.com/file/d/1eUpLqL8RyNtpKwj1NzExapbS4R_1gzEg/view?usp=sharing" target="_blank"><button>View My Resume</button></a>
+            <a className="get-resume" href={require('../../assets/RPResume.pdf')}>View My Resume</a>
         </div>
 
         <div className="box">
@@ -28,6 +26,8 @@ function Resume() {
                     <li>React</li>
                 </ul>
             </div>
+        </div>
+        <div className="box">
             <div className="card-body" display="inline-block">
                 <h3 className="titles">Back End</h3>
                 <ul>
@@ -41,7 +41,6 @@ function Resume() {
                     <li>MongoDB, Mongoose</li>
                 </ul>
             </div>
-               
         </div>
 
 
@@ -53,5 +52,3 @@ function Resume() {
   }
   
 export default Resume;
-
-// add resume download button under <hr> and follow with front end and back end breakdown in seperate cards

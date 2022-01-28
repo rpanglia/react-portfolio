@@ -5,6 +5,15 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
 
+import medisearchImg from '../../assets/medisearch.jpg';
+import wellnessHubImg from '../../assets/wellness_hub.jpg';
+import budgetTrackerImg from '../../assets/budget_trackers.jpg';
+import noteItImg from '../../assets/note_it.jpg';
+import weatherDashboardImg from '../../assets/weather_dashboard.jpg';
+import workdaySchedulerImg from '../../assets/workday_schedule.jpg';
+import passwordGeneratorImg from '../../assets/password_generator.png';
+import codingQuizImg from '../../assets/code_quiz.jpg';
+
 SwiperCore.use([Pagination, Navigation]); 
 
 
@@ -15,11 +24,11 @@ function Projects() {
         <section className="my-5">
             <h1 className="titles">Recent Projects</h1>
             <hr></hr>
-    <>
+        <>
         <SwiperSlide>
             <div class="card mb-3">
-                <a href="https://med-i-search.herokuapp.com/" target="_blank">
-                    <img class="card-img-top" src="../../medisearch.jpg" alt="medisearch app" />
+                <a href="https://med-i-search.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <img className="card-img-top" src={medisearchImg} alt="medisearch app" />
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">MEDiSEARCH</h4>
@@ -33,7 +42,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://nnikhil84.github.io/wellnesshub.github.io/" target="_blank">
-                    <img class="card-img-top" src="../../wellness_hub.jpg" alt="wellness hub app"/>
+                    <img className="card-img-top" src={wellnessHubImg} alt="wellness hub app"/>
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Wellness Hub</h4>
@@ -47,7 +56,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://shielded-cove-35098.herokuapp.com/" target="_blank">
-                    <img class="card-img-top" src="../../budget_trackers.jpg" alt="budget tracker app"/>
+                    <img className="card-img-top" src={budgetTrackerImg} alt="budget tracker app"/>
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Budget Tracker</h4>
@@ -61,7 +70,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://note-it-97.herokuapp.com/" target="_blank">
-                    <img class="card-img-top" src="../../note_it.jpg" alt="note it app"/>
+                    <img className="card-img-top" src={noteItImg} alt="note it app"/>
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Note-It</h4>
@@ -75,7 +84,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://rpanglia.github.io/Weather-Dashboard/" target="_blank">
-                    <img class="card-img-top" src="../../weather_dashboard.jpg" alt="weather dashboard app"/>
+                    <img className="card-img-top" src={weatherDashboardImg}alt="weather dashboard app"/>
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Weather Dashboard"</h4>
@@ -89,7 +98,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://rpanglia.github.io/work-day-scheduler/" target="_blank">
-                    <img class="card-img-top" src="../../workday_schedule.jpg" alt="workday scheduler app" />
+                    <img className="card-img-top" src={workdaySchedulerImg} alt="workday scheduler app" />
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Work Day scheduler</h4>
@@ -103,7 +112,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://rpanglia.github.io/password-generator/" target="_blank">
-                    <img class="card-img-top" src="../../password_generator.jpg" alt="password generator app"/>
+                    <img className="card-img-top" src={passwordGeneratorImg} alt="password generator app"/>
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Password Generator</h4>
@@ -117,7 +126,7 @@ function Projects() {
         <SwiperSlide>
             <div class="card mb-3">
                 <a href="https://rpanglia.github.io/code-quiz/" target="_blank">
-                    <img class="card-img-top" src="../../code_quiz.jpg" alt="coding quiz app" />
+                    <img className="card-img-top" src={codingQuizImg} alt="coding quiz app" />
                 </a>
                 <div class="card-body justify-center">
                     <h4 class="card-title">Coding Quiz</h4>
