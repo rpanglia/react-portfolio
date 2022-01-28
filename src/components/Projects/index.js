@@ -158,6 +158,3 @@ function Projects() {
 }
 
 export default Projects;
-
-
-//fix card styles --- try to add deploy button next to repository button (incase user doesn't click card image)

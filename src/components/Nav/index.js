@@ -1,17 +1,14 @@
 import React from "react";
 
-
 function Nav(props) {
     
     //the following tabs will redirect to appropriate pages via onClick()
-    const tabs = ["About", "Projects", "Resume", "Contact"];
+    const tabs = ["Home", "About", "Projects", "Resume", "Contact"];
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row">
             <h2>
-                <a href="/">
-                    Ravneet Panglia
-                </a>
+                <a href="/">Ravneet Panglia</a>
             </h2>
 
             <nav className="flex-row">
