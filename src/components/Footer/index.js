@@ -3,13 +3,16 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 
 function Footer() {
-    const year = new Date().getFullYear()
+    const year = new Date().getFullYear();
+
     return (
         <footer>
             <div>
                 <p>Ravneet Panglia &#169; {year}</p>
             </div>
+
             <div className="socials">
+            
                 <div>
                     <SocialIcon
                         url="mailto:ravneet.panglia@gmail.com"
@@ -30,8 +33,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
-
-    )
+    );
 }
 
 export default Footer;
