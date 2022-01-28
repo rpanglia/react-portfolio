@@ -10,7 +10,7 @@ function Resume() {
         <hr></hr>
 
         <div id="container d-flex justify-content-center">
-            <a className="get-resume" href={require('../../assets/RPResume.pdf')}>View My Resume</a>
+            <a className="get-resume" href={require('../../assets/RPResume.pdf')}><button>View My Resume</button></a>
         </div>
 
         <div className="box">
@@ -43,10 +43,7 @@ function Resume() {
             </div>
         </div>
 
-
-
       </section>
-
 
     );
   }
