@@ -6,7 +6,7 @@ main {
   --primary: #FFFCF7;
   --secondary: #A1B5D8;
   --tertiary: #738290;
-  --light: #E4F0D0;
+  --light: #d7dad2;
   --dark: #0000008f;
   --darker: #111111b4;
   --error: rgba(247, 86, 46, 0.849);
@@ -262,9 +262,9 @@ button[disabled] {
 }
 
 .headshot {
-  max-width: 100%;
+  max-width: 500%;
   width: auto;
-  height: 364px;
+  height: 464px;
 }
 
 .get-resume {
@@ -273,7 +273,7 @@ button[disabled] {
 }
 
 .img-box {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 
@@ -286,13 +286,12 @@ img {
   flex-direction: row;
   justify-content: center;
   max-width: 100%;
-  padding: 50px 30px;
+  padding: 50px 50px;
 }
 
 span[role='img'] {
   cursor: default;
 }
-
 
 .img-thumbnail {
   width: auto;

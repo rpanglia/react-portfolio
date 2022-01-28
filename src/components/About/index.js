@@ -13,7 +13,7 @@ function About() {
         <div id="container">
           <div className="img-text-box col"> 
             <div className="img-box col-lg-4"><img src={myPhoto} alt="Ravneet's Headshot" className="margin-block headshot"/></div>
-                <div className="my-2 margin-block col-lg-8">
+                <div className="my-2 margin-block col-lg-8"><strong>
                   <p>
                     I'm a Kinesiologist turned Web Developer!
                   </p>
@@ -23,7 +23,7 @@ function About() {
                   <p>
                     When I'm not in front of screens, I enjoy DIY-ing things around the house, gardening, exploring the world and making memories with friends and family.
                   </p>
-                </div>
+                  </strong></div>
           </div>
         </div>
 

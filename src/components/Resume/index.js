@@ -18,7 +18,7 @@ function Resume() {
             <div className="box d-inline-block">
                 <div className="card-body">
                     <h3 className="titles">Front End</h3>
-                    <ul>
+                    <ul><strong>
                         <li>Javascript</li>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -26,14 +26,14 @@ function Resume() {
                         <li>Materialize</li>
                         <li>jQuery</li>
                         <li>React</li>
-                    </ul>
+                    </strong></ul>
                 </div>
             </div>
 
             <div className="box d-inline-block">
                 <div className="card-body">
                     <h3 className="titles">Back End</h3>
-                    <ul>
+                    <ul><strong>
                         <li>APIs</li>
                         <li>SQL</li>
                         <li>Express</li>
@@ -42,7 +42,7 @@ function Resume() {
                         <li>MySQL, Sequelize</li>
                         <li>GraphQL</li>
                         <li>MongoDB, Mongoose</li>
-                    </ul>
+                    </strong></ul>
                 </div>
             </div>
 

@@ -27,20 +27,18 @@ function App() {
       }
   }
   
-  const year = new Date().getFullYear()
+
 
   return (
     <div>
       <main>
-          <header>
-              <Nav
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-              />
-          </header>
+            <Nav
+              currentPage={currentPage}
+              handlePageChange={handlePageChange}
+            />
           <div>{renderPage(currentPage)}</div>
           
-          <Footer>Ravneet Panglia &#169; {year}</Footer>
+          <Footer></Footer>
       </main>
     </div>
   )
