@@ -7,14 +7,14 @@ function Nav(props) {
 
     return (
         <header className="flex-row">
-            <h2>
-                <a href="/">Ravneet Panglia</a>
+            <h2 className="name">
+                <a href="/about">Ravneet Panglia</a>
             </h2>
 
             <nav className="flex-row">
-                <ul className="nav-row">
+                <ul className="nav-row" style={{display: 'flex', justifyContent: 'space-between'}}>
                     {tabs.map((tab) => (
-                        <li className="mx-2" key={tab}>
+                        <li className="mx-2 noBullet" key={tab}>
                             <a
                                 href={"#" + tab.toLowerCase()}
                                 onClick={() => props.handlePageChange(tab)} //

@@ -49,10 +49,10 @@ function Contact() {
                 <h3 className="titles">Contact Info</h3>
                 <ul>
                     <li>
-                    <a href="mailto:ravneet.panglia@gmail.com" target="_blank" rel="noreferrer" className="contacts">ravneet.panglia@gmail.com</a>
+                    <a href="mailto:ravneet.panglia@gmail.com" target="_blank" rel="noreferrer" className="contacts" style={{color: 'white'}}>Email:ravneet.panglia@gmail.com</a>
                     </li>
                     <li>
-                    <a href="https://github.com/rpanglia" target="_blank" rel="noreferrer" className="contacts">rpanglia</a> 
+                    <a href="https://github.com/rpanglia" target="_blank" rel="noreferrer" className="contacts" style={{color: 'white'}}>Github:rpanglia</a> 
                     </li>
                 </ul>
             </div>

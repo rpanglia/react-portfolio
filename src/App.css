@@ -39,8 +39,8 @@ body {
   display: block;
   width: 85%;
   margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+  max-width: 100%;
+  padding: 30px 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -118,8 +118,12 @@ nav li {
 .nav-row {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
+.noBullet{
+  list-style: none;
+}
 footer {
   background: #5e5e63;
   height: 25px;
@@ -140,7 +144,7 @@ footer {
 
 .tab-line {
   position: fixed;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
   height: 50px;
   bottom: 47%;
   left: 0px;
@@ -211,6 +215,7 @@ textarea {
 .titles {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white
 }
 
 button {
@@ -243,6 +248,7 @@ button[disabled] {
 
 .card-body {
   color: hsl(0, 0%, 0%);
+  justify-content: center;
 }
 /* .card-body {
   color: hsla(157, 74%, 60%, 0.137);
@@ -273,8 +279,9 @@ button[disabled] {
 }
 
 .img-box {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
+  padding-left: 300px;
 }
 
 img {
@@ -459,13 +466,23 @@ input:focus {
     padding: 8px;
   }
 
+  .name {
+    margin-left: 20px;
+  }
+
+ .textBox{
+   padding: 500px;
+   margin-left: 20px;
+ } 
   .social-line {
     width: 100%;
     position: absolute;
   }
 
+
   ol, ul {
     padding-left: none;
+    list-style-type: none;
   }
 
   h2 {
