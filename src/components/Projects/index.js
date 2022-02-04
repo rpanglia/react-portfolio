@@ -13,6 +13,7 @@ import weatherDashboardImg from '../../assets/weather_dashboard.jpg';
 import workdaySchedulerImg from '../../assets/workday_schedule.jpg';
 import passwordGeneratorImg from '../../assets/password_generator.png';
 import codingQuizImg from '../../assets/code_quiz.jpg';
+import okcreatureImg from '../../assets/home.jpg';
 
 SwiperCore.use([Pagination, Navigation]); 
 
@@ -36,7 +37,20 @@ function Projects() {
                 className="mySwiper"
                 centeredSlides={true}
             >
-            
+                <SwiperSlide>
+                    <div className="card mb-3">
+                        <a href="https://okcreature.herokuapp.com/" target="_blank" rel="noreferrer">
+                            <img className="card-img-top" src={okcreatureImg} alt="okcreature app" />
+                        </a>
+                        <div className="card-body">
+                            <h4 className="card-title">OkCreature</h4>
+                                <a href="https://github.com/rpanglia/pet-matcher" target="_blank" rel="noreferrer" className="btn btn-secondary btn-sm">
+                                    GitHub Repository
+                                </a>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
                 <SwiperSlide>
                     <div className="card mb-3">
                         <a href="https://med-i-search.herokuapp.com/" target="_blank" rel="noreferrer">
