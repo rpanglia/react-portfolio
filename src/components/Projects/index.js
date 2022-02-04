@@ -37,7 +37,7 @@ function Projects() {
                 className="mySwiper"
                 centeredSlides={true}
             >
-                {/* <SwiperSlide> */}
+                <SwiperSlide>
                     <div className="card mb-3">
                         <a href="https://okcreature.herokuapp.com/" target="_blank" rel="noreferrer">
                             <img className="card-img-top" src={okcreatureImg} alt="okcreature app" />
@@ -49,7 +49,7 @@ function Projects() {
                                 </a>
                         </div>
                     </div>
-                {/* </SwiperSlide> */}
+                </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="card mb-3">
