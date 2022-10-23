@@ -14,6 +14,8 @@ function App() {
   const [currentPage, handlePageChange] = useState("Home");
   const renderPage = () => {
       switch (currentPage) {
+          case "Home":
+            return <Home />;
           case "About":
               return <About />;
           case "Projects":

@@ -26,7 +26,7 @@ body, html {
 body {
   margin: 0;
   padding: 0;
-  background: #272626b0;
+  background: #575a59b0;
   font-weight: 200;
   line-height: 1.5;
   font-size: 18px;
@@ -125,7 +125,7 @@ nav li {
   list-style: none;
 }
 footer {
-  background: #5e5e63;
+  background: #474747;
   height: 25px;
   bottom: 0px;
   left: 0px;
@@ -282,6 +282,8 @@ button[disabled] {
   display: flex;
   justify-content: center;
   padding-left: 300px;
+  /* padding-right: 200px; */
+
 }
 
 img {
@@ -338,6 +340,9 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 30px;
 }
 
 .my-5 {
@@ -461,7 +466,7 @@ input:focus {
   }
 
   .socials {
-    background-color: rgba(255,255,255, 0.6);
+    background-color: rgba(255, 255, 255, 0.144);
     width: auto;
     padding: 8px;
   }
